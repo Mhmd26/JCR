@@ -1,0 +1,40 @@
+
+مره اول
+
+
+pkg update && pkg upgrade
+
+pkg install python
+
+pkg install git
+
+git clone https://github.com/Mhmd26/JCR.git
+
+cp /data/data/com.termux/files/home/JCR/install.py  ~/install.py
+python install.py
+
+cp /data/data/com.termux/files/home/JCR/lib2.sh /root/
+bash lib2.sh
+
+source final/bin/activate
+
+python source.py
+
+cd JCR
+
+nano config.py
+
+python3 -m JoKeRUB
+
+
+
+مره كل
+
+python install.py
+
+source final/bin/activate
+
+cd JCR
+
+python3 -m JoKeRUB
+
